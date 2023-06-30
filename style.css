@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Popins" sans-serif;
+}
+
+.webgl{
+    position: absolute;
+    inset: 0 0;
+    z-index: 1;
+}
+
+.nav{
+    z-index: 2;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 6rem 20rem;
+}
+
+.nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav > ul{
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    gap: 2rem;
+}
+
+.title{
+    position: absolute;
+    left: 50%;
+    bottom: 25%;
+    transform: translate(-50%, 25%);
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    z-index: 2;
+}
