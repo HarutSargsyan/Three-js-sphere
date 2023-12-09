@@ -3,7 +3,10 @@ on:
   push:
     branches:
       - master  # Set a branch to trigger deployment
-
+permissions:
+    contents: read
+    pages: write
+    id-token: write
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
